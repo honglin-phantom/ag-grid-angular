@@ -12,7 +12,7 @@ import { HttpClientModule } from '@angular/common/http';
     AppComponent
   ],
   imports: [ /* withComponents() 使得格子系统可以将 Angular 元件当作单元格 / 头来使用 */
-    BrowserModule, AgGridModule.withComponents([])
+    BrowserModule, HttpClientModule, AgGridModule.withComponents([])
   ],
   providers: [],
   bootstrap: [AppComponent]
