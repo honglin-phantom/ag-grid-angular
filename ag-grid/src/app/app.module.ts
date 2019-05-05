@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { AgGridModule } from 'ag-grid-angular';
 /* fetch remote data */
 import { HttpClientModule } from '@angular/common/http';
+/* 导入 ag-grid 的企业版 */
+import 'ag-grid-enterprise';
 
 @NgModule({
   declarations: [
